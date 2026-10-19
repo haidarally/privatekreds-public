@@ -1,0 +1,13 @@
+# Build / tooling
+node_modules/
+hardhat_artifacts/
+hardhat_cache/
+build/
+dist/
+.DS_Store
+
+# Secrets (defensive)
+.env
+.env.*
+*.pem
+*.key
